@@ -1,0 +1,81 @@
+.form-popup{
+    position: absolute;
+    position: fixed;
+    display: none;
+    width: 100%; 
+  height: 100%;
+  top:30%;
+  left: 0px;
+  padding: 0px;
+  transition: .5s;
+   
+}
+.form-container{
+    box-shadow: 0 0 5px black,0 0 10px black,0 0 15px black;
+    width: 30%;
+    height: 500px;
+    background-color: rgb(246, 246, 245);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.move{
+  
+}
+
+legend{
+    position: absolute;
+    margin-top: -50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.move2 div{
+    margin-top: 10px;
+}
+div input{
+    border: none;
+    height: 40px;
+    width: 250px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+div input:focus{
+    outline: none;
+    border-bottom: 3px solid blue;
+    background-color: rgba(255, 255, 255, 0.849);
+}
+.ch{
+    height: 20px;
+   margin-left: -113px;
+}
+.lb{
+    margin-left: -113px;
+    position: relative;
+    top: -3px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#sub{
+    background-color: rgb(29, 29, 25);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+}
+.form-popup button{
+    position: absolute;
+    background-color: rgb(29, 29, 25);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: white; 
+    height: 40px;
+    font-size: 20px;
+    margin-left: 51.5%;
+    margin-top: -150px;
+}
+.form-popup button:focus{
+    background-color: red;
+}
